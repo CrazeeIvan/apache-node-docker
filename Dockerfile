@@ -3,6 +3,7 @@ FROM bitnami/apache
 
 # Install Node.js, npm and ruby
 RUN apt-get update
+RUN apt-get install -y git
 RUN apt-get install -y nodejs && ln -s `which nodejs` /usr/bin/node
 RUN apt-get install -y npm
 RUN apt-get install -y ruby-full 

@@ -1,6 +1,7 @@
 # apache-node-docker
 
 Docker image with 
+- Git
 - Apache (from Bitnami)
 - Node JS (+ npm)
 - Ruby
